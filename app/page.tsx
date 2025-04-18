@@ -60,7 +60,7 @@ export default function Home() {
           </h2>
 
           <div className="flex flex-col md:flex-row gap-6 mb-8">
-            <div className="w-full md:w-196 h-50 relative">
+            <div className="w-full md:w-96 h-50 relative">
               <Image
                 src="/HectorMapping.gif"
                 alt="HectorSlam"
