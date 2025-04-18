@@ -61,7 +61,7 @@ export default function Home() {
 
           <div className="flex flex-col md:flex-row gap-6 mb-8">
             <div className="w-full md:w-96 h-50 relative">
-              <Image
+              <Img
                 src="/MappingVideo.gif"
                 alt="HectorSlam"
                 fill
