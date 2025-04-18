@@ -9,10 +9,10 @@ export default function Home() {
         <div className="text-gray-400">
                                 press:{" "}
           <Link href="/" className="text-white hover:underline">
-                               [h] home
+                               [h]home
           </Link>{" "}
           <Link href="/blog" className="text-white hover:underline">
-                                [b] blog
+                                [b]blog
           </Link>
         </div>
       </nav>
@@ -62,8 +62,8 @@ export default function Home() {
           <div className="flex flex-col md:flex-row gap-6 mb-8">
             <div className="w-full md:w-196 h-50 relative">
               <Image
-                src="/Bot.png"
-                alt="Vehicle"
+                src="/HectorMapping.gif"
+                alt="HectorSlam"
                 fill
                 
                 className="object-cover rounded-sm"
