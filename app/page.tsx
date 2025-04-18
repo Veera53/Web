@@ -66,7 +66,7 @@ export default function Home() {
                 alt="HectorSlam"
                 fill
                 
-                className="object-cover rounded-sm w-full h-auto"
+                className="object-cover rounded-sm"
               />
             </div>
             <div>
