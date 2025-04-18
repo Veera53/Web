@@ -60,15 +60,13 @@ export default function Home() {
           </h2>
 
           <div className="flex flex-col md:flex-row gap-6 mb-8">
-            <div className="w-full md:w-96 h-50 relative">
-              <Image
-                src="/HectorMapping.gif"
-                alt="HectorSlam"
-                fill
-                
-                className="object-cover rounded-sm w-full h-auto"
-              />
-            </div>
+            <div className="w-full md:w-96 h-50 overflow-hidden rounded-sm">
+  <img
+    src="/HectorMapping.gif"
+    alt="HectorSlam"
+    className="object-cover w-full h-full"
+  />
+</div>
             <div>
               <h3 className="text-xl font-bold">AtlasPi</h3>
               <p className="text-gray-400 mb-2">Centre for Autonomous Systems(August'24 - January'25)</p>
